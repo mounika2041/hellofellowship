@@ -11,10 +11,13 @@ namespace RFP_PROGRAM
         static void Main(string[] args)
         {
             Console.WriteLine("WELCOME TO RF-PROGRAM");
-            Human human = new Human();
-            human.Speek();
-            SwapNumbers swap = new SwapNumbers();
-            swap.SwapTwoNumbers();
+            //Human human = new Human();
+            //human.Speek();
+            //SwapNumbers swap = new SwapNumbers();
+            //swap.SwapTwoNumbers();
+            Console.WriteLine("enter a number to reverse");
+            int number = Convert.ToInt32(Console.ReadLine());
+            int res = Reverse.FindReverse(number);
             Console.ReadLine();
         }
     }
