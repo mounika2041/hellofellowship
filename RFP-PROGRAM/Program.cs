@@ -18,6 +18,7 @@ namespace RFP_PROGRAM
             Console.WriteLine("enter a number to reverse");
             int number = Convert.ToInt32(Console.ReadLine());
             int res = Reverse.FindReverse(number);
+            Palindrome.FindPalindrome(number, res);
             Console.ReadLine();
         }
     }
