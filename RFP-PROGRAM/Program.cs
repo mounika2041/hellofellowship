@@ -13,6 +13,8 @@ namespace RFP_PROGRAM
             Console.WriteLine("WELCOME TO RF-PROGRAM");
             Human human = new Human();
             human.Speek();
+            SwapNumbers swap = new SwapNumbers();
+            swap.SwapTwoNumbers();
             Console.ReadLine();
         }
     }
