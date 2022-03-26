@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOPS_CONCEPTS.ClassObject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,23 +11,11 @@ namespace OOPS_CONCEPTS
     {
         static void Main(string[] args)
         {
-            Fruit apple = new Fruit("apple", "red");
-            apple.fruitDetails();
-            Fruit orange = new Fruit("orange", "yellow");
-            orange.fruitDetails();
+            ClassObject.Fruit apple = new Fruit("apple", "red");
+            apple.FruitDetails();
+            ClassObject.Fruit orange = new Fruit("orange", "yellow");
+            orange.FruitDetails();
             Console.ReadLine();
-        }
-    }
-
-    class Fruit
-    {
-        public Fruit(string v1, string v2)
-        {
-        }
-
-        internal void fruitDetails()
-        {
-            throw new NotImplementedException();
         }
     }
 }
