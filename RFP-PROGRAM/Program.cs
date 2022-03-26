@@ -19,7 +19,8 @@ namespace RFP_PROGRAM
             //int number = Convert.ToInt32(Console.ReadLine());
             //int res = Reverse.FindReverse(number);
             //Palindrome.FindPalindrome(number, res);
-            UserReplace.ReplaceUserName();
+            //UserReplace.ReplaceUserName();
+            Flipcoin.FindFlipCoinCount();
             Console.ReadLine();
         }
     }
