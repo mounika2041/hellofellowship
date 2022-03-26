@@ -11,6 +11,8 @@ namespace RFP_PROGRAM
         static void Main(string[] args)
         {
             Console.WriteLine("WELCOME TO RF-PROGRAM");
+            Human human = new Human();
+            human.Speek();
             Console.ReadLine();
         }
     }
