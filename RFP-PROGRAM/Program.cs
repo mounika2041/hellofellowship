@@ -15,10 +15,11 @@ namespace RFP_PROGRAM
             //human.Speek();
             //SwapNumbers swap = new SwapNumbers();
             //swap.SwapTwoNumbers();
-            Console.WriteLine("enter a number to reverse");
-            int number = Convert.ToInt32(Console.ReadLine());
-            int res = Reverse.FindReverse(number);
-            Palindrome.FindPalindrome(number, res);
+            // Console.WriteLine("enter a number to reverse");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //int res = Reverse.FindReverse(number);
+            //Palindrome.FindPalindrome(number, res);
+            UserReplace.ReplaceUserName();
             Console.ReadLine();
         }
     }
