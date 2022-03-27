@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPS_CONCEPTS.Inheritance
 {
-    class Car
+    class Car:Vehicle
     {
         public string Brand { get; internal set; }
 

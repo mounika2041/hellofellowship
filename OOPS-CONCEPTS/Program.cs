@@ -1,4 +1,6 @@
 ﻿using OOPS_CONCEPTS.ClassObject;
+using OOPS_CONCEPTS.polymorphism.MethodOverloding;
+using OOPS_CONCEPTS.polymorphism.MethodOverRiding;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,15 +29,15 @@ namespace OOPS_CONCEPTS
                     car.Brand = "BMW";
                     car.start();
                     break;
-                // case 3:
-                //polymorphism.methodoverloading.Addition addition = new polymorphism.methodoverloading.Addition();
-                //addition.Add(10, 20,30);
-                //break;
-                //case 4:
-                // polymorphism.methodoverriding.PartTimeEmployee partTime = new PartTimeEmployee();
-                //partTime.empName = "Mouni";
-                //partTime.calculatesalary();
-                //break;
+                case 3:
+                    Addition addition = new Addition();
+                    addition.Add(10, 20, 30);
+                    break;
+                case 4:
+                    PartTimeEmployee partTime = new PartTimeEmployee();
+                    partTime.empName = "Mouni";
+                    partTime.calculatesalary();
+                break;
                 default:
                     Console.WriteLine("please select a number within range");
                     break;

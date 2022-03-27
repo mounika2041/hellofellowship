@@ -46,11 +46,15 @@
     <Compile Include="ClassObject\Fruit.cs" />
     <Compile Include="Inheritance\Car.cs" />
     <Compile Include="Inheritance\Vehicle.cs" />
+    <Compile Include="polymorphism\MethodOverloding\Addition.cs" />
+    <Compile Include="polymorphism\MethodOverRiding\Employee.cs" />
+    <Compile Include="polymorphism\MethodOverRiding\PartTimeEmployee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
