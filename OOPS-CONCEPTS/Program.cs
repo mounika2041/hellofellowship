@@ -11,10 +11,35 @@ namespace OOPS_CONCEPTS
     {
         static void Main(string[] args)
         {
-            ClassObject.Fruit apple = new Fruit("apple", "red");
-            apple.FruitDetails();
-            ClassObject.Fruit orange = new Fruit("orange", "yellow");
-            orange.FruitDetails();
+            Console.WriteLine("WELCOME TO OOPS CONCEPTS");
+            Console.WriteLine("1:class and object\n2:inheitance\n3: polymorphism .methodoverloding\n4:polymorphism.methodoverriding");
+            int option = Convert.ToInt32(Console.ReadLine());
+            switch (option)
+            {
+                case 1:
+                    Fruit apple = new Fruit("apple", "red");
+                    apple.FruitDetails();
+                    Fruit orange = new Fruit("orange", "yellow");
+                    orange.FruitDetails();
+                    break;
+                case 2:
+                    Inheritance.Car car = new Inheritance.Car();
+                    car.Brand = "BMW";
+                    car.start();
+                    break;
+                // case 3:
+                //polymorphism.methodoverloading.Addition addition = new polymorphism.methodoverloading.Addition();
+                //addition.Add(10, 20,30);
+                //break;
+                //case 4:
+                // polymorphism.methodoverriding.PartTimeEmployee partTime = new PartTimeEmployee();
+                //partTime.empName = "Mouni";
+                //partTime.calculatesalary();
+                //break;
+                default:
+                    Console.WriteLine("please select a number within range");
+                    break;
+            }
             Console.ReadLine();
         }
     }

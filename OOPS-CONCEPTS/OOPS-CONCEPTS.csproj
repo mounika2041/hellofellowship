@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassObject\Fruit.cs" />
+    <Compile Include="Inheritance\Car.cs" />
+    <Compile Include="Inheritance\Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
