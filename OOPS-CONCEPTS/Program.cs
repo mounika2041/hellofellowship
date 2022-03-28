@@ -1,4 +1,5 @@
-﻿using OOPS_CONCEPTS.ClassObject;
+﻿using OOPS_CONCEPTS.Abtraction;
+using OOPS_CONCEPTS.ClassObject;
 using OOPS_CONCEPTS.polymorphism.MethodOverloding;
 using OOPS_CONCEPTS.polymorphism.MethodOverRiding;
 using System;
@@ -14,7 +15,7 @@ namespace OOPS_CONCEPTS
         static void Main(string[] args)
         {
             Console.WriteLine("WELCOME TO OOPS CONCEPTS");
-            Console.WriteLine("1:class and object\n2:inheitance\n3: polymorphism .methodoverloding\n4:polymorphism.methodoverriding");
+            Console.WriteLine("1:class and object\n2:inheitance\n3: polymorphism .methodoverloding\n4:polymorphism.methodoverriding\n5:Abstraction");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -37,7 +38,12 @@ namespace OOPS_CONCEPTS
                     PartTimeEmployee partTime = new PartTimeEmployee();
                     partTime.empName = "Mouni";
                     partTime.calculatesalary();
-                break;
+                    break;
+                case 5:
+                    Dog dog = new Dog();
+                    dog.animalsound();
+                    dog.sleep();
+                    break;
                 default:
                     Console.WriteLine("please select a number within range");
                     break;

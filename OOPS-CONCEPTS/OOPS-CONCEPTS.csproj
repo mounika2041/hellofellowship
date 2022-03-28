@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abtraction\Animal.cs" />
+    <Compile Include="Abtraction\Dog.cs" />
     <Compile Include="ClassObject\Fruit.cs" />
     <Compile Include="Inheritance\Car.cs" />
     <Compile Include="Inheritance\Vehicle.cs" />
