@@ -46,6 +46,7 @@
     <Compile Include="Abtraction\Animal.cs" />
     <Compile Include="Abtraction\Dog.cs" />
     <Compile Include="ClassObject\Fruit.cs" />
+    <Compile Include="Encapsulation\Account.cs" />
     <Compile Include="Inheritance\Car.cs" />
     <Compile Include="Inheritance\Vehicle.cs" />
     <Compile Include="polymorphism\MethodOverloding\Addition.cs" />

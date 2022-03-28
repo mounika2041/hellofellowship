@@ -1,5 +1,6 @@
 ﻿using OOPS_CONCEPTS.Abtraction;
 using OOPS_CONCEPTS.ClassObject;
+using OOPS_CONCEPTS.Encapsulation;
 using OOPS_CONCEPTS.polymorphism.MethodOverloding;
 using OOPS_CONCEPTS.polymorphism.MethodOverRiding;
 using System;
@@ -15,7 +16,7 @@ namespace OOPS_CONCEPTS
         static void Main(string[] args)
         {
             Console.WriteLine("WELCOME TO OOPS CONCEPTS");
-            Console.WriteLine("1:class and object\n2:inheitance\n3: polymorphism .methodoverloding\n4:polymorphism.methodoverriding\n5:Abstraction");
+            Console.WriteLine("1:class and object\n2:inheitance\n3: polymorphism .methodoverloding\n4:polymorphism.methodoverriding\n5:Abstraction\n6:Encapsulation");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -43,6 +44,12 @@ namespace OOPS_CONCEPTS
                     Dog dog = new Dog();
                     dog.animalsound();
                     dog.sleep();
+                    break;
+                case 6:
+                    Account account = new Account();
+                    Console.WriteLine(account.GetBalance());
+                    account.SetBalance(5000);
+                    Console.WriteLine(account.GetBalance());
                     break;
                 default:
                     Console.WriteLine("please select a number within range");
